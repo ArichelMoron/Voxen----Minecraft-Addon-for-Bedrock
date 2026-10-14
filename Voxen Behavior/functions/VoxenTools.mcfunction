@@ -1,0 +1,1 @@
+give @s voxen:edit_staff

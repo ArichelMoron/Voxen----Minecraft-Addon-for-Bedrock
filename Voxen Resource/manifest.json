@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Voxen Resource for Minecraft Bedrock by Ari 11124390",
+    "name": "Voxen Resource",
+    "uuid": "f417d551-881e-4208-b86f-0e00042b22f8",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Voxen Resource for Minecraft Bedrock by Ari 11124390",
+      "type": "resources",
+      "uuid": "89997f81-30f5-49ee-9700-1d7d5276351e",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c5592f18-b1f6-4a68-a2f1-664eb90092e2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Ari 11124390"
+    ],
+    "generated_with": {
+      "MAM": [
+        "4.0.4"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

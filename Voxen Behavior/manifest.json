@@ -1,0 +1,70 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Voxen Behavior for Minecraft Bedrock by Ari 11124390",
+    "name": "Voxen Behavior",
+    "uuid": "c5592f18-b1f6-4a68-a2f1-664eb90092e2",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Voxen Behavior for Minecraft Bedrock by Ari 11124390",
+      "type": "data",
+      "uuid": "f60611bd-b4db-4935-bbf8-8c09e824f3fc",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "3f1c54b7-bc2e-4829-9ee4-df6f34c3486f",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f417d551-881e-4208-b86f-0e00042b22f8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "version": "2.10.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "2.2.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Ari 11124390"
+    ],
+    "generated_with": {
+      "MAM": [
+        "4.0.4"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

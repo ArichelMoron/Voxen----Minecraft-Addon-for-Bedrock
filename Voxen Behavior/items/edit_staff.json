@@ -1,0 +1,43 @@
+{
+    "format_version":"1.21.120",
+    
+    "minecraft:item":{
+        "description":{
+            "identifier":"voxen:edit_staff",
+            "menu_category":{
+                "category":"equipment"
+                }
+            },
+            "components":{
+                "minecraft:icon":"edit_staff",
+            "minecraft:max_stack_size":1,
+            "minecraft:stacked_by_data":true,
+            "minecraft:glint":true,
+            "minecraft:hand_equipped":true,
+            "minecraft:damage":255,
+            "minecraft:durability":{
+                "max_durability":600
+            },
+            
+            "minecraft:allow_off_hand":false,
+            "minecraft:repairable":{
+                "repair_items":[{
+                    "items":[
+                        "voxen:edit_staff"
+                    ],
+            "repair_amount":"context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+            }]},
+            "minecraft:can_destroy_in_creative":false,
+            "minecraft:tags":{
+                "tags":[]
+            },
+            "minecraft:swing_duration":{
+                "value":0.3
+            },
+            "minecraft:cooldown":{
+                "category":"edit_staff_cooldown",
+                "duration":0.5,"type":"use"
+            },
+                "item:has_durability":{}}
+                }
+            }
